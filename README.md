@@ -1,6 +1,12 @@
 # JMXQuery Python Module
 
-Provides a Python module to easily run queries and collect metrics from a Java Virtual Machine via JMX.
+This repo was forked from [JMXQuery](https://github.com/dgildeh/JMXQuery).  The Python portion was separated from the Java portion so it can be installed via pip as follows: 
+
+````
+pip install git+https://github.com/dmitchsplunk/JMXQuery-Python.git
+````
+
+It provides a Python module to easily run queries and collect metrics from a Java Virtual Machine via JMX. The forked Java portion can be found [here](https://github.com/dmitchsplunk/JMXQuery). 
 
 In order to use this module, provide a list of queries, and the module will return all of the values it 
 finds matching the query. Please note that the interfact to the JMX uses a small jar file contained in 
